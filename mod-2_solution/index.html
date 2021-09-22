@@ -3,183 +3,37 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>
+<title>Assignment solution for module 2</title>
+<link rel="stylesheet" href="style.css">
 <style>
 
 /********** Base styles **********/
 * {
   box-sizing: border-box;
 }
-h1 {
-  margin-bottom: 15px;
-}
 
-
-p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-  position:absolute;top:0;right:0;text-align:right;
-
-
-}
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-  position :relative;
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  .col-sx-1, .col-sx-2, .col-sx-3, .col-sx-4, .col-sx-5, .col-sx-6, .col-sx-7, .col-sx-8, .col-sx-9, .col-sx-10, .col-sx-11, .col-sx-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-sx-1 {
-    width: 8.33%;
-  }
-  .col-sx-2 {
-    width: 16.66%;
-  }
-  .col-sx-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-sx-5 {
-    width: 41.66%;
-  }
-  .col-sx-6 {
-    width: 50%;
-  }
-  .col-sx-7 {
-    width: 58.33%;
-  }
-  .col-sx-8 {
-    width: 66.66%;
-  }
-  .col-sx-9 {
-    width: 74.99%;
-  }
-  .col-sx-10 {
-    width: 83.33%;
-  }
-  .col-sx-11 {
-    width: 91.66%;
-  }
-  .col-sx-12 {
-    width: 100%;
-  }
-}
 
 </style>
 </head>
 <body>
-<h1>Responsive Layout</h1>
+<h1>Our Menu</h1>
 
 <div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 5</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+  <div class="col-lg-4 col-md-6" ><p>Pizza</p>
+    <div class="yo">
+      The term pizza was first recorded in the 10th century in a Latin manuscript from the Southern Italian town of Gaeta in Lazio, on the border with Campania. Modern pizza was invented in Naples, and the dish and its variants have since become popular in many countries. It has become one of the most popular foods in the world and a common fast food item in Europe, North America and Australasia. Vegan Pizza only.
+      </div>
+    </div>
+  <div class="col-lg-4 col-md-6"><p>Avocado Ice-cream</p>
+<div class="yo">
+  Avocado is an unstoppable juggernaut. You’ll see it being used in a breathtaking array of foods ranging the whole gamut from sweet to savory. In fact, you can even make chocolate mousse from it! It doesn’t surprise us that someone discovered it makes a pretty tasty ice cream ingredient, too. If you have the opportunity to try some, we highly recommend it.In the meantime, why not learn what else you can do to totally transform your avocado? 
+</div>
+  </div>
+  <div class="col-lg-4 col-md-6"><p>Fruit Juice</p>
+<div class="yo">
+  Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables. It can also refer to liquids that are flavored with concentrate or other biological food sources, such as meat or seafood, such as clam juice. Juice is commonly consumed as a beverage or used as an ingredient or flavoring in foods or other beverages, as for smoothies. Juice emerged as a popular beverage choice after the development.
+</div>
+  </div>
 </div>
 
 </body>
