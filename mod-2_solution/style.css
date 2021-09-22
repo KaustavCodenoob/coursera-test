@@ -1,21 +1,22 @@
 body
 {
-  background-color: grey;
+  background-color: burlywood;
 }
 h1 {
   /*margin-bottom: 15px;*/
+  color:black;
   margin-bottom :2%;
   font-size: 200%;
   text-align:center;
 }
 .yo{
-  border: 10px solid blue;
-  background-color: black;
+  border: 1px solid black;
+  background-color: lightgrey;
   width: 100%;
   height: auto;
   margin:auto;
   font-family: Comic Sans MS;
-  color: white;
+  color: red;
   float:both;
   text-align: justify;
   font-size: 100%;
@@ -24,8 +25,8 @@ h1 {
 
 
 p {
-  border: 10px solid green;
-  background-color: #A52A2A;
+  border: 1px solid black;
+  background-color: green;
   width: 100%;
   /*height: 40px;*/
   /*margin-right: auto;
@@ -34,7 +35,7 @@ p {
   margin-bottom: auto;*/
   margin:auto;
   font-family: Helvetica;
-  color: white;
+  color: coral;
 
   text-align: right;
   font-size: 150%;
